@@ -1,3 +1,58 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#heading {
+  font-size: 50px;
+  color: darkred;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40px;
+}
+.container {
+  border-style: solid;
+  color: aqua;
+  padding: 30px;
+  margin: 20px;
+}
+.container h2 {
+  color: blue;
+}
+.container2 {
+  border-style: solid;
+  padding: 30px;
+  font-size: 20px;
+  color: rgb(6, 111, 16);
+  margin: 20px;
+}
+.container2 > p {
+  font-size: 30px;
+}
+p {
+  padding-left: 50px;
+}
 b {
   color: red;
+  padding-left: 50px;
+}
+ins {
+  color: rgb(35, 153, 5);
+  padding-left: 50px;
+}
+
+.container3 ~ p {
+  color: bisque;
+  font-size: 20px;
+}
+
+.text .blok {
+  color: rgb(164, 0, 0);
+}
+
+a[href="https://itwiki.dev/front-end/css-reference#section-selectors"]
+{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  background-color: blue;
+  text-align: center;
+  padding: 10px;
 }
