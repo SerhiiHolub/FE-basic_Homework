@@ -10,6 +10,7 @@ body {
   width: 1100px;
   background: rgb(196, 196, 196);
 }
+
 .container1 {
   width: 1000px;
   display: inline-block;
@@ -48,7 +49,6 @@ body {
   margin-top: 50px;
   background: rgb(230, 230, 230);
 }
-
 .card1 {
   width: 200px;
   height: 200px;
@@ -61,8 +61,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.items {
-}
+
 .card3 {
   width: 100px;
   height: 100px;
@@ -75,7 +74,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .container3 {
   width: 1000px;
   display: inline-block;
@@ -94,7 +92,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 15px;
+  margin-left: 15px;
 }
 .card5 {
   width: 200px;
@@ -102,9 +100,12 @@ body {
   background-color: rgb(252, 143, 143);
   color: antiquewhite;
   font-size: 64px;
-  float: right;
   margin-left: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.items {
+  float: right;
+  display: flex;
 }
