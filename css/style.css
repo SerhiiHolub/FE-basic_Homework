@@ -1,0 +1,105 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  background: #c4c4c4;
+  width: 1100px;
+}
+
+.text {
+  clear: none;
+  margin: 30px;
+}
+.clearfix {
+  width: 1000px;
+  background: #e6e6e6;
+  overflow: auto;
+  clear: left;
+  display: block;
+}
+.card1 {
+  width: 200px;
+  height: 200px;
+  background-color: #fc8f8f;
+  color: antiquewhite;
+  font-size: 64px;
+  float: left;
+  margin-right: 10px;
+}
+.card2 {
+  width: 200px;
+  height: 200px;
+  background-color: #fc8f8f;
+  color: antiquewhite;
+  font-size: 64px;
+  float: right;
+}
+.center {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card3 {
+  width: 100px;
+  height: 100px;
+  background-color: #fc8f8f;
+  color: antiquewhite;
+  float: right;
+  margin-left: 10px;
+  font-size: 36px;
+}
+
+.card5 {
+  width: 200px;
+  height: 200px;
+  background-color: #fc8f8f;
+  color: antiquewhite;
+  font-size: 64px;
+  float: left;
+}
+
+.card4 {
+  width: 200px;
+  height: 200px;
+  background-color: #fc8f8f;
+  color: antiquewhite;
+  font-size: 64px;
+  float: right;
+}
+
+.card6 {
+  width: 200px;
+  height: 200px;
+  background-color: #fc8f8f;
+  color: antiquewhite;
+  font-size: 64px;
+  float: right;
+  margin-right: 10px;
+}
+
+.card7 {
+  width: 100px;
+  height: 100px;
+  background-color: #fc8f8f;
+  color: antiquewhite;
+  float: right;
+  margin-left: 10px;
+  font-size: 36px;
+}
+
+.card8 {
+  width: 200px;
+  height: 200px;
+  background-color: #fc8f8f;
+  color: antiquewhite;
+  font-size: 64px;
+  float: left;
+  margin-right: 10px;
+} */
