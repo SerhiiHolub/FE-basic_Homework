@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .imgcontainer {
-  padding: 25px;
+  padding-left: 50px;
 }
 p {
   font-size: 15px;
@@ -40,4 +40,8 @@ button {
 img {
   width: 100px;
   border-radius: 50%;
+}
+nav {
+  margin: 50px;
+  color: blue;
 }

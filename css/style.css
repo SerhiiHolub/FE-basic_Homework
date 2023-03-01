@@ -7,12 +7,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .imgcontainer {
-  padding: 25px;
+  padding-left: 50px;
 }
 p {
   font-size: 15px;
 }
-
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
@@ -37,4 +36,8 @@ input[type="password"] {
   cursor: pointer;
   width: 350px;
   border-radius: 5px;
+}
+nav {
+  margin: 50px;
+  color: blue;
 }
