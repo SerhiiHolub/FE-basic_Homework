@@ -11,23 +11,259 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <nav>
+    <form action="https://fom.in.ua/echo">
+        <div class="imgcontainer">
+            <div>
+                <nav>
+                    <a href="../index.html">Реєстрація</a>&nbsp;
+                    <a href="./index2.html">Авторизація</a>&nbsp;
+                    <a>Пошук</a>
+                    <hr>
+                </nav>
+            </div>
 
-                <a href="/index.html">Реєстрація</a>
-                <a href="/pages/index2.html">Авторізація</a>
-                <a>Пошук</a>
+            <h3>Розширений пошук вживаних авто</h3>
+            <hr>
+            <div class="container">
+                <div class="rows">
+                    <h3>Тип кузова</h3>
+                    <input type="checkbox" name="body0" value="0"><label> Універсал<br>
+                    </label><input type="checkbox" name="body1" value="1">
+                    <label>Седан<br></label><input type="checkbox" name="body2" value="2">
+                    <label> Хетчбек<br></label><input type="checkbox" name="body3" value="3">
+                    <label> Позашляховик /Кросовер<br></label><input type="checkbox" name="body4" value="4">
+                    <label> Купе<br></label>
+                </div>
                 <hr>
 
-            </nav>
+                <div class="rows">
+                    <h3>Марка авто</h3>
+                    <input type="radio" name="body1" value="1">Audi<br>
+                    <input type="radio" name="body1" value="1">BMW<br>
+                    <input type="radio" name="body1" value="1">Chevrolet<br>
+                    <input type="radio" name="body1" value="1">Ford<br>
+                    <input type="radio" name="body1" value="1">Honda<br>
+                    <input type="radio" name="body1" value="1">Hyundai<br>
+                    <input type="radio" name="body1" value="1">Kia<br>
+                    <input type="radio" name="body1" value="1">Lexus<br>
+                </div>
+                <hr>
+
+                <div class="rows">
+                    <h3>Країна виробник</h3>
+                    <select aria-label="Країна виробник">
+                        <option value="0" selected="selected">Оберіть країну</option>
+                        <option value="276">Німеччина</option>
+                        <option value="392">Японія</option>
+                        <option value="250">Франція</option>
+                        <option value="840">США</option>
+                    </select>
+                    <hr>
+                </div>
+
+                <div class="rows">
+                    <h3>Вартість</h3>
+                    <input type="number" placeholder="Від" class="elem"><input type="number" placeholder="До"
+                        class="elem">
+                    <select name="currency" class="grey">
+                        <option value="USD" selected="selected">$</option>
+                        <option value="EUR">€</option>
+                        <option value="UAH">грн.</option>
+                    </select>
+                </div>
+                <hr>
+
+                <div class="rows">
+                    <h3>Рік випуску</h3>
+                    <select class="elem-grey">
+                        <option value="0">Рік, від</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                    </select>
+                    <select class="elem-grey">
+                        <option value="0">Рік, до</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                    </select>
+                </div>
+                <hr>
+
+                <div class="rows">
+                    <h3>Стан</h3>
+                    <label class="label"><b>Нерозмитнені</b></label>
+                    <div class="indent">
+                        <input type="radio" value="-1" name="custom.not" checked="checked">
+                        <label data-type="radio" class="radio-btn">Всі</label><br>
+                        <input type="radio" value="0" name="custom.not">
+                        <label data-type="radio" class="radio-btn">Показати</label><br>
+                        <input type="radio" value="1" name="custom.not">
+                        <label data-type="radio" class="radio-btn">Сховати</label>
+                    </div>
+
+                    <hr>
+                    <div class="label"><label class="label"><b>Авто пригнані із США</b></label>
+                        <div class="indent">
+                            <input type="radio" value="-1" name="usa" checked="checked">
+                            <label data-type="radio" class="radio-btn">Всі</label><br>
+                            <input type="radio" value="0" name="usa">
+                            <label data-type="radio" class="radio-btn">Показати</label><br>
+                            <input type="radio" value="1" name="usa">
+                            <label data-type="radio" class="radio-btn">Сховати</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="rows"><label class="label"><b>В кредиті</b></label>
+                        <div class="indent">
+                            <input type="radio" value="-1" name="credit" checked="checked"><label
+                                class="radio-btn">Всі</label><br>
+                            <input type="radio" value="1" name="credit"><label class="radio-btn">Показати</label><br>
+                            <input type="radio" value="0" name="credit"><label class="radio-btn">Сховати</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="rows"><label class="label"><b>Конфіскат</b></label>
+                        <div class="indent">
+                            <input type="radio" value="-1" name="confiscated_car" checked="checked"><label
+                                class="radio-btn">Всі</label><br>
+                            <input type="radio" value="1" name="confiscated_car"><label
+                                class="radio-btn">Показати</label><br>
+                            <input type="radio" value="0" name="confiscated_car"><label
+                                class="radio-btn">Сховати</label>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="rows"><label class="label"><b>Не на ходу</b></label>
+                        <div class="indent">
+                            <input type="radio" value="-1" name="auto_repairs" checked="checked"><label
+                                class="radio-btn">Всі</label><br>
+                            <input type="radio" value="1" name="auto_repairs"><label
+                                class="radio-btn">Показати</label><br>
+                            <input type="radio" value="0" name="auto_repairs"><label class="radio-btn">Сховати</label>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="rows">
+                    <h3>Тип палива</h3>
+                    <div class="indent">
+                        <input type="checkbox" name="drive1" value="1"><label class="radio-btn">Бензин</label><br>
+                        <input type="checkbox" name="drive2" value="2"><label class="radio-btn">Газ/Бензин</label><br>
+                        <input type="checkbox" name="drive3" value="3"><label class="radio-btn">Дизель</label>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="rows">
+                    <h3>КПП</h3>
+                    <div class="indent">
+                        <input type="checkbox" name="gearbox1" value="1"><label
+                            class="radio-btn">Ручна/Механіка</label><br>
+                        <input type="checkbox" name="gearbox2" value="2"><label class="radio-btn">Автомат</label><br>
+                        <input type="checkbox" name="gearbox3" value="3"><label class="radio-btn">Типтронік</label><br>
+                        <input type="checkbox" name="gearbox4" value="4"><label class="radio-btn">Робот</label><br>
+                        <input type="checkbox" name="gearbox5" value="5"><label class="radio-btn">Варіатор</label>
+                    </div>
+                    <hr>
+                </div>
+
+
+
+                <div class="rows">
+                    <h3>Колір</h3>
+                    <input type="checkbox" name="metallic" checked="checked"><label>Металік</label>
+                    <select name="colors" class="grey">
+                        <option value="0" selected="selected">Оберіть</option>
+                        <option value="1">Білий</option>
+                        <option value="2">Чорний</option>
+                        <option value="3">Зелений</option>
+                        <option value="4">Жовтий</option>
+                        <option value="5">Червоний</option>
+                    </select>
+                </div>
+                <hr>
+
+
+                <div class="rows">
+                    <h3>Комфорт</h3>
+                    <label class="label">Фари</label>
+                    <div class="indent">
+                        <select name="headlights" class="grey">
+                            <option value="0" selected="selected">Оберіть</option>
+                            <option value="1">Ксенонові/Біксенонові</option>
+                            <option value="2">Лазерні</option>
+                            <option value="3">Світлодіодні</option>
+                            <option value="4">Матричні</option>
+                            <option value="5">Галогенні</option>
+                        </select>
+                    </div>
+                    <div class="rows"><label class="label">Матеріали салону</label>
+                        <div class="indent"><select name="interiorMaterials" class="grey">
+                                <option value="0" selected="selected">Оберіть</option>
+                                <option value="1">Тканина</option>
+                                <option value="2">Шкіра</option>
+                                <option value="3">Велюр</option>
+                                <option value="4">Комбінований</option>
+                                <option value="5">Штучна шкіра</option>
+                                <option value="6">Алькантара</option>
+                            </select></div>
+                    </div>
+
+                    <div class="rows"><label class="label">Електросклопідйомники</label>
+                        <div class="indent"><select name="windowLifter" class="span3 grey">
+                                <option value="0" selected="selected">Оберіть</option>
+                                <option value="1">Передні</option>
+                                <option value="2">Передні та задні</option>
+                            </select></div>
+                    </div>
+
+                    <div class="rows"><label class="label">Кондиціонер</label>
+                        <div class="indent"><select name="conditioner" class="span3 grey">
+                                <option value="0" selected="selected">Оберіть</option>
+                                <option value="1">Кондиціонер</option>
+                                <option value="2">Клімат-контроль 1-зонний</option>
+                                <option value="3">Клімат-контроль 2-зонний</option>
+                            </select></div>
+                    </div>
+
+                    <div class="rows"><label class="label">Підсилювач керма</label>
+                        <div class="indent"><select name="powerSteering" class="span3 grey">
+                                <option value="0" selected="selected">Оберіть</option>
+                                <option value="1">Гідро</option>
+                                <option value="2">Електро</option>
+                            </select></div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </header>
-    <form action="https://fom.in.ua/echo">
-
-
     </form>
-
 </body>
 
 </html>
