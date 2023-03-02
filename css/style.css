@@ -3,15 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  font-family: "Roboto", sans-serif;
-}
-
 .pu-rem {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-table,
-td {
   border: 1px solid;
+  margin: 25px;
+  float: left;
+}
+tr {
+  border: 1px solid;
+  text-align: center;
+}
+table {
+  border: 1px solid;
+  margin-right: 9px;
+  width: 350px;
+height: 250px;
+font-size: 25px;
+ float: left;
+ margin-top: 20px;
+}
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+.container {
+  border: 1px solid;
+  max-width: 1101px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 70px;
+  float: left;
+}
+.number {
+  background-color: yellow;
+  border: none;
+}
+.number1 {
+  font-weight: bold;
+  background-color: yellow;
+}
+.bold {
+  font-weight: bold;
 }
