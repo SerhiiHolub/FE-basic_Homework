@@ -6,3 +6,12 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.pu-rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+table,
+td {
+  border: 1px solid;
+}
