@@ -1,8 +1,20 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url(./basic.css);
 body {
   font-family: "Roboto", sans-serif;
+}
+.bg-grey {
+  background-color: var(--color-grey);
+}
+
+/* .container {
+max-width: 1920px;
+background: #be1c1c;
+border: 1px solid;
+} */
+.navigation {
+padding-top: 79px;
+background-color: #EEEFF1;
+}
+.nav-link + .nav-link {
+margin-left: 42px;
 }
