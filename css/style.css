@@ -54,3 +54,27 @@ h2 {
   text-align: center;
   background-color: #FFFFFF;
 }
+.blue_section {
+  background-color: var(--color-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  text-align: center;
+ }
+.group {
+  display: inline-flex;
+}
+.paragraph {
+  margin-left: 20px;
+  margin-right: 48px;
+  text-align: left;
+  line-height: 25px;
+}
+h2 {
+  font-size: 32px;
+  padding-bottom: 50px;
+}
+.bg-lightgrey {
+  background: #EEEFF1;
+  text-align: center;
+}
