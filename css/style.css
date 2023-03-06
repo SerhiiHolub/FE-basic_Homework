@@ -8,7 +8,7 @@ body {
   background-color: var(--color-grey);
 }
 .wrap {
-  max-width: 1154px;
+  max-width: 1115px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 141px;
@@ -77,4 +77,30 @@ h2 {
 .bg-lightgrey {
   background: #EEEFF1;
   text-align: center;
+  
+}
+.video {
+  max-width: 1110px;
+  aspect-ratio: 4/3;
+  margin: 0 auto;
+  padding-top: 57px;
+  padding-bottom: 100px;
+}
+footer {
+  background-color: var(--color-blue);
+  color: white;
+}
+.wrapper {
+  max-width: 1115px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+h3 {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.reserved {
+  font-size: 13px;
+  padding-bottom: 50px;
 }
