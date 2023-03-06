@@ -6,36 +6,17 @@ body {
 }
 .header {
   background-color: var(--color-grey);
-}
-.wrap {
-  max-width: 1115px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 141px;
-}
-.navigation {
-  text-transform: uppercase;
   padding-top: 79px;
-  padding-bottom: 151px;
+  padding-bottom: 141px;
 }
 .nav-link + .nav-link {
   margin-left: 42px;
 }
-.name {
-  font-size: 48px;
-  color: #000000;
-  padding-bottom: 60px;
+.first-screen__menu {
+  text-transform: uppercase;
+  padding-bottom: 151px;
 }
-.text {
-  line-height: 25px;
-}
-.nav {
-  padding-bottom: 65px;
-}
-.main {
-  padding-bottom: 100px;
-}
-.blue {
+.first-screen__button {
   width: 225px;
   height: 65px;
   line-height: 65px;
@@ -43,60 +24,86 @@ body {
   background: var(--color-blue);
   color: var(--color-lightgrey);
 }
-h2 {
+.name {
+  font-size: 48px;
+  color: #000000;
+  padding-bottom: 60px;
+}
+.nav {
+  width: 530px;
+  padding-bottom: 65px;
+}
+.about-me {
   padding-top: 112px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color: var(--color-lightgrey);
+}
+h2 {
   font-size: 32px;
   padding-bottom: 50px;
 }
-.section-menu {
-  text-align: center;
-  background-color: var( --color-lightgrey);
+.text {
+  line-height: 25px;
 }
-.blue_section {
-  background-color: var(--color-blue);
+.content {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.rectangle {
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: var(--color-blue);
   color: var(--color-lightgrey);
   text-align: center;
-}
-.group {
-  display: inline-flex;
 }
 .paragraph {
   margin-left: 20px;
   margin-right: 48px;
   text-align: left;
   line-height: 25px;
+  font-size: 16px;
+}
+.group {
+  display: inline-flex;
+}
+span {
+  font-size: 21px;
 }
 h2 {
   font-size: 32px;
   padding-bottom: 50px;
 }
-.bg-lightgrey {
+.rectangle_9 {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: var(--color-grey);
   text-align: center;
+}
+.bottom {
+  padding-left: 700px;
+  padding-right: 700px;
+  padding-bottom: 57px;
 }
 .video {
   max-width: 1110px;
   aspect-ratio: 4/3;
   margin: 0 auto;
-  padding-top: 57px;
-  padding-bottom: 100px;
 }
 footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: var(--color-blue);
   color: var(--color-lightgrey);
 }
-.wrapper {
+.Rectangle_12 {
   max-width: 1115px;
   margin-left: auto;
   margin-right: auto;
 }
 h3 {
-  padding-top: 50px;
   padding-bottom: 20px;
 }
-.reserved {
+.end {
   font-size: 13px;
-  padding-bottom: 50px;
 }
