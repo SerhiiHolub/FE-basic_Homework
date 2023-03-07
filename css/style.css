@@ -1,6 +1,9 @@
 @import url(./basic.css);
 body {
   max-width: 1920px;
+ 
+}
+.mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
@@ -14,10 +17,10 @@ body {
 }
 .first-screen__menu {
   text-transform: uppercase;
-  padding-bottom: 151px;
+  margin-bottom: 151px;
 }
 .first-screen__button {
-  width: 225px;
+  max-width: 225px;
   height: 65px;
   line-height: 65px;
   text-align: center;
@@ -27,11 +30,11 @@ body {
 .name {
   font-size: 48px;
   color: #000000;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 .nav {
-  width: 530px;
-  padding-bottom: 65px;
+  max-width: 530px;
+  margin-bottom: 65px;
 }
 .about-me {
   padding-top: 112px;
@@ -41,14 +44,13 @@ body {
 }
 h2 {
   font-size: 32px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .text {
   line-height: 25px;
 }
 .content {
-  padding-left: 300px;
-  padding-right: 300px;
+  max-width: 510px;
 }
 .rectangle {
   padding-top: 100px;
@@ -67,12 +69,8 @@ h2 {
 .group {
   display: inline-flex;
 }
-span {
+.number {
   font-size: 21px;
-}
-h2 {
-  font-size: 32px;
-  padding-bottom: 50px;
 }
 .rectangle_9 {
   padding-top: 100px;
@@ -81,7 +79,8 @@ h2 {
   text-align: center;
 }
 .bottom {
-  padding-bottom: 57px;
+  max-width: 520px;
+  margin-bottom: 57px;
 }
 .video {
   max-width: 1110px;
@@ -96,11 +95,9 @@ footer {
 }
 .Rectangle_12 {
   max-width: 1115px;
-  margin-left: auto;
-  margin-right: auto;
 }
 h3 {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .end {
   font-size: 13px;
