@@ -6,3 +6,67 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.plus {
+ float: right;
+}
+ .navbar {
+  width: 100%;
+  background:#21272c;
+  text-transform: uppercase;
+  border-bottom: 8px solid #1067ae;
+ }
+ ul {
+text-align: left;
+display: inline;
+list-style: none;
+ }
+ ul li {
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+  padding: 25px 20px;
+  background:  #21272c;
+ }
+ ul li a {
+  text-decoration: none;
+  padding: 25px 20px;
+  color: white;
+  font-size: 12px;
+ }
+ ul li:hover {
+background: #1067ae;
+color: white;
+ }
+ ul li ul {
+  position: absolute;
+  top: 71px;
+  left: 0;
+  width: 250px;
+  display: none;
+  visibility: hidden;
+ }
+ ul li ul li {
+  background: #1067ae;
+  display: block;
+  text-transform: none;
+  border: 1px solid;
+  border-color: #0e548d;
+ }
+ ul li ul li:hover {
+  background: #4464f4;
+ }
+ ul li:hover ul {
+ display: block;
+ opacity: 1;
+ visibility: visible;
+ }
+ ul ul ul li {
+  display: none;
+ }
+ ul ul li:hover li {
+  display: block;
+ }
+ ul ul ul {
+  left: 100%;
+  top: 0;
+ }
