@@ -6,67 +6,126 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.plus {
- float: right;
-}
- .navbar {
+header {
   width: 100%;
-  background:#21272c;
+  background: #21272c;
+  border-bottom: 8px solid #1a25b5;
+}
+.dws-menu ul,
+.dws-menu li {
+  list-style: none;
+}
+.dws-menu > ul {
+  display: flex;
+}
+.dws-menu > ul li a {
+  display: block;
+  padding: 20px 30px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
   text-transform: uppercase;
-  border-bottom: 8px solid #1067ae;
- }
- ul {
+  transition: all 0.7s ease;
+}
+.dws-menu ul li:hover {
+  background: #212dd1;
+  color: white;
+   }
+.dws-menu > ul li {
+  position: relative;
+}
+
+.dws-menu li:hover {
+  background: #111cbd;
+  box-shadow: 1px 5px 10px -5px black;
+  transition: all 0.5s ease;
+}
+.plus {
+  float: right;
+  }
+/* Sub-menu */
+.dws-menu a:hover {
+  background: #212dd1;
+}
+
+.dws-menu li ul {
+  position: absolute;
+  min-width: 250px;
+  display: none;
+
+}
+.dws-menu li > ul li {
+  border: 1px solid #17209c;
+  background: #111cbd;
+}
+.dws-menu li > ul li a {
+ text-transform: none;
+ padding: 10px;
+}
+.dws-menu li > ul li ul {
+  position: absolute;
+  right: -250px;
+  top: 0px;
+}
+.dws-menu li:hover > ul {
+  display: block;
+}
+
+
+
+/*
+
+ .dws-menu ul {
 text-align: left;
 display: inline;
 list-style: none;
  }
- ul li {
+ .dws-menu ul li {
   font-size: 12px;
-  display: inline-block;
   position: relative;
   padding: 25px 20px;
   background:  #21272c;
  }
- ul li a {
+ .dws-menu ul li a {
   text-decoration: none;
   padding: 25px 20px;
   color: white;
   font-size: 12px;
  }
- ul li:hover {
+ .dws-menu ul li:hover {
 background: #1067ae;
 color: white;
  }
- ul li ul {
+ .dws-menu ul li ul {
   position: absolute;
-  top: 71px;
+  top: 63px;
   left: 0;
   width: 250px;
   display: none;
   visibility: hidden;
  }
- ul li ul li {
+ .dws-menu ul li ul li {
   background: #1067ae;
   display: block;
   text-transform: none;
   border: 1px solid;
   border-color: #0e548d;
  }
- ul li ul li:hover {
+ .dws-menu ul li ul li:hover {
   background: #4464f4;
  }
- ul li:hover ul {
+ .dws-menu ul li:hover ul {
  display: block;
  opacity: 1;
  visibility: visible;
  }
- ul ul ul li {
+ .dws-menu ul ul ul li {
   display: none;
  }
- ul ul li:hover li {
+ .dws-menu ul ul li:hover li {
   display: block;
  }
- ul ul ul {
+ .dws-menu ul ul ul {
   left: 100%;
   top: 0;
- }
+ } */
