@@ -17,7 +17,7 @@
   box-sizing: border-box;
 }
 .container {
-  border: 1px solid rgb(4, 4, 4);
+
   max-width: calc(var(--container-width) + var(--basic-space) * 2);
   margin-left: auto;
   margin-right: auto;
@@ -25,11 +25,9 @@
 }
 body {
   max-width: 1440px;
-  min-height: 100vh;
+  /* min-height: 100vh;
   display: grid;
-  grid-template-rows: auto 1fr auto;
-border: 1px solid black;
-
+  grid-template-rows: auto 1fr auto; */
 }
 
 /* 

@@ -1,86 +1,74 @@
-@import url('./basic.css');
-
-.flex {
-  display: flex;
+@import url("./basic.css");
+/*  ------HEADER-------------------------------------------------------------------*/
+.header {
+  box-shadow: 0 5px 4px -5px gray;
+  font-size: 14px;
+  font-family: "Raleway";
+  padding-top: 15px;
+  padding-bottom: 16px;
+  margin-bottom: 60px;
 }
-.items-center {
+.logo {
+  margin-right: 40px;
+}
+.nav-flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-grow: 1;
+}
+.mr-12 {
+  margin-right: 12px;
   align-items: center;
 }
-
-.justify-between {
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+.wrap {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
-.padding-bt {
-  padding: 15px 0px 17px 0px;
-
-}
-
-/* 
-
-/* .bg-white {
-  background-color: var(--color-white);
-  color: var(--color-black);
-}
-.bg-red {
-  background-color: var(--color-red);
-  color: var(--color-white);
-}
-.flex-1 {
-  flex: 1;
-}
-.flex-wrap {
-  flex-wrap: wrap;
-}
+/*------first-section---------------------------------------------------- */
+.first-section {
+max-width: 1150px;
+background: #E3EBF1;
+border-radius: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 50px;
 
 
-.justify-between {
-  justify-content: space-between;
 }
-.gap-30 {
-  gap: 30px;
+.container-text {
+  max-width: 484px;
 }
-.gap-40 {
-  gap: 40px;
+.text-raleway-400 {
+  font-family: "Raleway";
+  font-size: 18px;
+  color:#10843F;
+  margin: 8px;
 }
-.btn { */
-  /* display: inline-block;
-  text-align: center;
-  min-width: 170px;
-  line-height: 36px;
-  letter-spacing: 0.05em;
-  border: 2px solid transparent;
-  border-radius: 40px;
-  cursor: pointer;
-  transition: all 0.2s linear;
+.text-bitter-400 {
+  font-family: "Bitter";
+font-size: 47px;
+margin-bottom: 22px;
+line-height: 1.1;
+border: 1px solid;
 }
-.btn.btn-small {
-  min-width: 130px;
-  line-height: 31px;
+.text-raleway-700 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 18px;
 }
-.btn.btn-default {
-  border-color: var(--color-red);
+.text-raleway-700-400 {
+  font-family: "Raleway";
+  font-size: 18px;
 }
-.btn.btn-default:hover {
-  background-color: var(--color-red);
-  color: var(--color-white);
-}
-.btn.btn-red {
-  background-color: var(--color-red);
-  border-color: var(--color-white);
-  color: var(--color-white);
-}
-.btn.btn-red:hover {
-  background-color: var(--color-white);
-  border-color: var(--color-red);
-  color: var(--color-red);
-}
-.toTop {
-  position: fixed;
-  right: 2rem;
-  bottom: 2rem;
-} 
-------HEADER-------------------------------------------------------------------
-.header .up-line {
+/* .header .up-line {
   padding-top: 17px;
   padding-bottom: 16px;
   line-height: 16px;
