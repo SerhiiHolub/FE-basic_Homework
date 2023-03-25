@@ -1,12 +1,18 @@
 @import url("./basic.css");
+
+/* <!-- ----------------header Affiliate---------------------------------------------------------> */
+
 .header {
   box-shadow: 0 5px 4px -5px gray;
   font-size: 14px;
-  font-family: "Raleway";
-  font-weight: 400;
   padding-top: 15px;
   padding-bottom: 16px;
   margin-bottom: 60px;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .logo {
   margin-right: 40px;
@@ -26,53 +32,43 @@
   display: flex;
   text-decoration: none;
   align-items: center;
+  color: #1D2F38;
 }
-.wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-/*------first-section---------------------------------------------------- */
-.first-section {
+
+/*------1 section Introducing Affiliate----------------------------------------------------- */
+
+.section1 {
   background: #e3ebf1;
   border-radius: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 50px 66px 50px 50px;
-  margin: 77px;
+  margin-bottom: 77px;
 }
 .container-text {
   max-width: 484px;
 }
-.text-raleway-400 {
-  font-family: "Raleway";
-  font-weight: 400;
+.text1 {
   font-size: 18px;
   color: #10843f;
   margin-bottom: 8px;
   line-height: 1.3;
 }
-.text-bitter-400 {
-  font-family: "Bitter";
-  font-weight: 400;
+.text2 {
   font-size: 47px;
   margin-bottom: 22px;
   line-height: 1.1;
 }
-.text-raleway-700 {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 18px;
-}
-.text-raleway-700-400 {
-  font-family: "Raleway";
-  font-weight: 400;
+.text3 {
   font-size: 18px;
   margin-bottom: 25px;
   color: #333333;
 }
-.btn-buy {
+.text4 {
+  font-size: 18px;
+}
+.btn1 {
   height: 50px;
   width: 161px;
   border-radius: 5px;
@@ -80,46 +76,29 @@
   border: none;
   color: #ffffff;
   font-size: 15px;
-  line-height: 1.3;
-  font-family: "Raleway";
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
 }
-/*----------content------------------------------------------------------------ */
-.container {
-  max-width: 1150px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.content {
+
+/* <!-- ---------------2 section Latest from--------------------------------------- --> */
+
+
+.flex {
   display: flex;
 }
-.latest {
+.text5 {
   margin-bottom: 33px;
-  font-family: "Bitter";
-  font-weight: 400;
   font-size: 38px;
 }
-.how {
+.text6 {
   font-size: 30px;
   margin-top: 9px;
   margin-bottom: 13px;
-  font-family: "Bitter";
-  font-weight: 400;
 }
-.this {
-  font-family: "Raleway";
-  font-weight: 400;
+.text7 {
   font-size: 15px;
-  line-height: 1.3;
-}
-.card-text1 {
   margin-bottom: 74px;
 }
-.card-text2 {
+.card-right {
   margin-left: 40px;
 }
 .card-bloks {
@@ -127,21 +106,18 @@
   align-items: center;
   gap: 15px;
   margin-bottom: 20px;
-  font-family: "Raleway";
-  font-weight: 400;
   font-size: 18px;
-  line-height: 1.3;
 }
-/*--------------------play---------------------------------------------------- */
 .play {
-  font-family: "Raleway";
-  font-weight: 400;
   font-size: 16px;
   display: inline-flex;
   gap: 4px;
   margin-bottom: 100px;
 }
-.view {
+
+/* <!-- ---------------3 list --------------------------------------- --> */
+
+.list {
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -158,12 +134,10 @@
   align-items: center;
   gap: 12px;
   flex-grow: 1;
-  font-family: "Bitter";
-  font-weight: 400;
   font-size: 28px;
   text-decoration: none;
 }
-.btn-See {
+.btn2 {
   height: 52px;
   width: 111px;
   border-radius: 5px;
@@ -171,18 +145,12 @@
   border: none;
   color: #ffffff;
   font-size: 15px;
-  line-height: 1.3;
-  font-family: "Raleway";
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
 }
-/*--------------------------------card-------------------------------------------- */
-.Latest {
-  font-family: "Bitter";
-  font-weight: 400;
+
+/*<!-- ---------------4 section Latest Product--------------------------------------- -->*/
+
+.text8 {
   font-size: 38px;
   margin-bottom: 33px;
 }
@@ -191,29 +159,9 @@
   gap: 40px;
   margin-bottom: 40px;
 }
-
 .card {
-  max-width: 357px;
   text-align: center;
   background: #f7f9fa;
-}
-.text-name {
-  font-family: "Bitter";
-  font-weight: 400;
-  font-size: 30px;
-  margin-bottom: 13px;
-  margin-top: 24px;
-  text-align: left;
-  margin-left: 25px;
-}
-.text-menu {
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.3;
-  margin-right: 33px;
-  margin-left: 25px;
-  text-align: left;
 }
 .btn-grey {
   height: 30px;
@@ -223,18 +171,27 @@
   border: none;
   color: #ffffff;
   font-size: 15px;
-  line-height: 1.3;
-  font-family: "Raleway";
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
   position: absolute;
   font-size: 12px;
   margin: 15px;
 }
-/* ----------------------------------Newsletter Signup----------------------- */
+.text9 {
+  font-size: 30px;
+  margin-bottom: 13px;
+  margin-top: 24px;
+  text-align: left;
+  margin-left: 25px;
+}
+.text10 {
+  font-size: 15px;
+  margin-right: 33px;
+  margin-left: 25px;
+  text-align: left;
+}
+
+/* <!-- ---------------5 section Newsletter--------------------------------------- --> */
+
 .fons2 {
   padding: 50px;
   display: flex;
@@ -243,8 +200,6 @@
   background-image: url(../image/fons2.jpg);
 }
 .email {
-  font-family: "Bitter";
-  font-weight: 400;
   font-size: 30px;
   align-items: center;
   justify-content: center;
@@ -252,30 +207,26 @@
   max-width: 500px;
   margin-top: 8px;
 }
+.circle {
+  position: absolute;
+}
 .convert {
   position: absolute;
   margin-left: 10px;
   margin-top: 10px;
 }
-.circle {
-  position: absolute;
-}
-.Newsletter {
+.text11 {
   margin-left: 70px;
   margin-top: 10px;
   margin-bottom: 44px;
 }
-.be {
-  font-family: "Raleway";
-  font-weight: 400;
+.text12 {
   font-size: 18px;
   margin-bottom: 24px;
 }
 .your-email {
   width: 100%;
   height: 50px;
-  font-family: "Raleway";
-  font-weight: 400;
   padding-left: 16px;
   margin-bottom: 31px;
   border: 1px solid #aabcc5;
@@ -289,70 +240,48 @@
   border: none;
   color: #000000;
   font-size: 12px;
-  line-height: 1.3;
-  font-family: "Raleway";
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
 }
-/* ---------------------------------------------- footer ---------------------------------------*/
-.footer {
-  background: #f7f9fa;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  justify-content: space-between;
-}
 
-.text-footer700 {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 16px;
-}
-.text-footer400 {
-  max-width: 306px;
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 16px;
+/* <!-- ---------------6 footer--------------------------------------- -->*/
+
+.card-nav {
+  width: 100%;
 }
 .logo2 {
   margin-bottom: 13px;
 }
-.sns {
+.social {
   margin-bottom: 19px;
 }
-.card-nav {
-  width: 100%;
+.text13 {
+  max-width: 306px;
+  font-size: 16px;
+}
+.text14 {
+  font-size: 16px;
 }
 .blokcard {
   width: 100%;
 }
-.card-foto {
-  width: 100%;
+.text15 {
+  font-size: 30px;
+  margin-bottom: 12px;
+  color: #333333;
+}
+.cards {
+  gap: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 .fotocard {
   width: 139px;
   border-radius: 7px;
 }
-.textname {
-  font-family: "Bitter";
-  font-weight: 400;
-  font-size: 30px;
-  margin-bottom: 13px;
-  color: #333333;
+.nav {
+  width: 100%;
 }
-.cent {
-  display: inline-flex;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 20px;
-  font-family: "Raleway";
-  font-weight: 400;
-  line-height: 1.3;
-  font-size: 16px;
-  display: flex;
-}
+
 .Search {
   width: 274px;
   height: 48px;
@@ -377,10 +306,9 @@
   margin-bottom: 20px;
 }
 .Brand2022 {
-  font-family: "Raleway";
-  font-weight: 400;
   font-size: 16px;
 }
+
 .lin2 {
   margin-top: 60px;
   width: 100%;
@@ -399,23 +327,22 @@
   text-decoration: none;
   align-items: center;
   margin-bottom: 7px;
-  font-family: "Raleway";
-  font-weight: 400;
   font-size: 16px;
+  color: #1D2F38;
 }
-.text-float-l {
-  float: left;
+
+.text16 {
   text-decoration: none;
-  font-family: "Raleway";
-  font-weight: 400;
+  font-size: 11px;
+  color: #1d2f38;
+  margin-bottom: 13px;
+}
+.text17 {
+  text-decoration: none;
   font-size: 11px;
   color: #1d2f38;
 }
-.text-float-r {
-  float: right;
-  text-decoration: none;
-  font-family: "Raleway";
-  font-weight: 400;
-  font-size: 11px;
-  color: #1d2f38;
+.inlain {
+  justify-content: space-between;
+margin-bottom: 20px;
 }
