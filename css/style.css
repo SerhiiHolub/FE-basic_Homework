@@ -376,8 +376,6 @@ transform: translateY(0);
   background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  grid-column: 1/4;
-  justify-self: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60px;
