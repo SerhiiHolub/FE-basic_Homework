@@ -369,7 +369,15 @@ transform: translateY(0);
 
 
 
-
+.publications__box {
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 30px;
+  margin-bottom: 30px;
+}
 .it {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   border-radius: 0 0 12px 12px;
@@ -576,7 +584,10 @@ transform: translateY(0);
     align-self: start;
   }
 }
-
+.publications {
+  padding: 30px 0;
+  background: #F5F5FA;
+}
 
 
 
